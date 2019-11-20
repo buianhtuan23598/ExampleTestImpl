@@ -37,7 +37,7 @@ extension ShowMoreVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let lastElement = self.arrCustomer.count - 1
-        if !loadingData && indexPath.row == lastElement {
+        if !loadingData && lastElement != 0 && indexPath.row == lastElement {
             self.showLoading()
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
                 self.hideLoading()

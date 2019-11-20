@@ -25,6 +25,25 @@ class Screen3: BaseViewController, CellLabelDelegate {
     }
         
     func showMore(indexPath: IndexPath) {
+        switch indexPath.section {
+        case 1:
+            let vc = ShowMoreRate.init(nibName: "ShowMoreRate", bundle: nil)
+            vc.arrCustomerOriginal = self.listData?.results ?? [TopRateModel.Result]()
+            vc.titleScreen = "Top Phim hay trong tháng"
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc = ShowMoreRate.init(nibName: "ShowMoreRate", bundle: nil)
+            vc.arrCustomerOriginal = self.listDataTop?.results ?? [TopRateModel.Result]()
+            vc.titleScreen = "Top xem nhiều"
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 5:
+            let vc = ShowMoreRate.init(nibName: "ShowMoreRate", bundle: nil)
+            vc.arrCustomerOriginal = self.listDataTrend?.results ?? [TopRateModel.Result]()
+            vc.titleScreen = "Top Rate"
+            self.navigationController?.pushViewController(vc, animated: true)
+        default:
+            print("Default")
+        }
     }
     
     func getData() {

@@ -27,6 +27,8 @@
 		4915ADA6237C0EAF003FD071 /* CellMovies.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4915ADA4237C0EAF003FD071 /* CellMovies.xib */; };
 		4915ADAA237C0F15003FD071 /* CellCollectionMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4915ADA8237C0F15003FD071 /* CellCollectionMovies.swift */; };
 		4915ADAB237C0F15003FD071 /* CellCollectionMovies.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4915ADA9237C0F15003FD071 /* CellCollectionMovies.xib */; };
+		4925CFA72384D7990082C705 /* ScreenDetailRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925CFA52384D7990082C705 /* ScreenDetailRate.swift */; };
+		4925CFA82384D7990082C705 /* ScreenDetailRate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4925CFA62384D7990082C705 /* ScreenDetailRate.xib */; };
 		494419F623797C5D00F6EBF5 /* CellImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494419F423797C5D00F6EBF5 /* CellImage.swift */; };
 		494419F723797C5D00F6EBF5 /* CellImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494419F523797C5D00F6EBF5 /* CellImage.xib */; };
 		494419FB23797CEC00F6EBF5 /* CellCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494419F923797CEC00F6EBF5 /* CellCollectionView.swift */; };
@@ -122,6 +124,8 @@
 		4915ADA4237C0EAF003FD071 /* CellMovies.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellMovies.xib; sourceTree = "<group>"; };
 		4915ADA8237C0F15003FD071 /* CellCollectionMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCollectionMovies.swift; sourceTree = "<group>"; };
 		4915ADA9237C0F15003FD071 /* CellCollectionMovies.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellCollectionMovies.xib; sourceTree = "<group>"; };
+		4925CFA52384D7990082C705 /* ScreenDetailRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenDetailRate.swift; sourceTree = "<group>"; };
+		4925CFA62384D7990082C705 /* ScreenDetailRate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenDetailRate.xib; sourceTree = "<group>"; };
 		494419F423797C5D00F6EBF5 /* CellImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellImage.swift; sourceTree = "<group>"; };
 		494419F523797C5D00F6EBF5 /* CellImage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellImage.xib; sourceTree = "<group>"; };
 		494419F923797CEC00F6EBF5 /* CellCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCollectionView.swift; sourceTree = "<group>"; };
@@ -231,6 +235,7 @@
 		491411FD237C3CB1006DD0C7 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				4925CFA42384D77B0082C705 /* ScreenDetailRate */,
 				491411FF237C3CFB006DD0C7 /* ScreenShowMoreRate */,
 				491411FE237C3CED006DD0C7 /* ScreenShowMore */,
 				DF674AB422C10B6200735AC9 /* Screen1 */,
@@ -305,6 +310,15 @@
 				4915ADA9237C0F15003FD071 /* CellCollectionMovies.xib */,
 			);
 			path = CellCollectionMovies;
+			sourceTree = "<group>";
+		};
+		4925CFA42384D77B0082C705 /* ScreenDetailRate */ = {
+			isa = PBXGroup;
+			children = (
+				4925CFA52384D7990082C705 /* ScreenDetailRate.swift */,
+				4925CFA62384D7990082C705 /* ScreenDetailRate.xib */,
+			);
+			path = ScreenDetailRate;
 			sourceTree = "<group>";
 		};
 		494419F223797C3B00F6EBF5 /* Cell */ = {
@@ -663,6 +677,7 @@
 				DF674ABB22C11C9E00735AC9 /* Screen2VC.xib in Resources */,
 				DF6749D722C0F54300735AC9 /* Main.storyboard in Resources */,
 				494419FC23797CEC00F6EBF5 /* CellCollectionView.xib in Resources */,
+				4925CFA82384D7990082C705 /* ScreenDetailRate.xib in Resources */,
 				DF674A8F22C1045B00735AC9 /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -730,6 +745,7 @@
 				DF674A4922C0F79600735AC9 /* UIImage+Extension.swift in Sources */,
 				DF674A8222C0FC1A00735AC9 /* Repository.swift in Sources */,
 				DF674A9222C1045B00735AC9 /* AlertConfirmViewController.swift in Sources */,
+				4925CFA72384D7990082C705 /* ScreenDetailRate.swift in Sources */,
 				4915ADA0237C0C87003FD071 /* CellLabel.swift in Sources */,
 				DF674A5A22C0F79600735AC9 /* BaseView.swift in Sources */,
 				DF674AAA22C1051900735AC9 /* SimplePopoverCell.swift in Sources */,

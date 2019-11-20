@@ -62,7 +62,7 @@
                         <constraint firstItem="Fhw-Tg-xqp" firstAttribute="top" secondItem="Qpw-f7-azh" secondAttribute="top" id="yCt-Z8-Ryt"/>
                     </constraints>
                 </view>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QXR-tc-DKn">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QXR-tc-DKn">
                     <rect key="frame" x="0.0" y="84" width="414" height="778"/>
                 </imageView>
                 <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4f-vM-hed">

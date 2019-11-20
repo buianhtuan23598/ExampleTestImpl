@@ -5,6 +5,8 @@ class CellImage: UITableViewCell, UICollectionViewDelegate, UICollectionViewData
     
     var model: [Result] = [Result]()
     
+    @IBOutlet weak var heightCollectionView: NSLayoutConstraint!
+    
     @IBOutlet weak var collectionVIew: UICollectionView!
     override func awakeFromNib() {
         super.awakeFromNib()

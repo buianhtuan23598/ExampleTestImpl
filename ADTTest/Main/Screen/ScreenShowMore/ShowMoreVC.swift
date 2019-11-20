@@ -60,6 +60,9 @@ class ShowMoreVC: BaseViewController, UICollectionViewDelegate, UICollectionView
 
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     @objc func refresh(_ sender: Any) {
         // Call webservice here after reload tableview.
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {

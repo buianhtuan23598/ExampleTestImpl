@@ -1,9 +1,9 @@
 
 import UIKit
 
-class Screen2VC: BaseViewController {
-    
-    var model: Result?
+class ScreenDetailRate: BaseViewController {
+
+    var model: TopRateModel.Result?
     @IBOutlet weak var lblRate: UILabel!
     @IBOutlet weak var lblDate: UILabel!
     @IBOutlet weak var lblName: UILabel!
